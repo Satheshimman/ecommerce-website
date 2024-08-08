@@ -14,7 +14,7 @@ export const Routing=()=>{
         <BrowserRouter>
           <Navbar/>
            <Routes>
-             <Route path="/" element={<Home/>}></Route>
+             <Route path="/ecommerce-website/" element={<Home/>}></Route>
              <Route path="/search" element={<Search/>}></Route>
              <Route path="/best" element={<Best/>}></Route>
              <Route path="/prodetails" element={<Prodetails/>}></Route>
